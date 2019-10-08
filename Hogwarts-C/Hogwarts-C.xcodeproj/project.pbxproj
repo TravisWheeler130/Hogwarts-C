@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19DC8F79234CF6FD00AB0978 /* TRWCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DC8F78234CF6FD00AB0978 /* TRWCharacter.m */; };
 		FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC59234C3E6300A6D563 /* AppDelegate.m */; };
 		FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEEBC5C234C3E6300A6D563 /* SceneDelegate.m */; };
 		FBEEBC63234C3E6300A6D563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEEBC61234C3E6300A6D563 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19DC8F77234CF6FD00AB0978 /* TRWCharacter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRWCharacter.h; sourceTree = "<group>"; };
+		19DC8F78234CF6FD00AB0978 /* TRWCharacter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRWCharacter.m; sourceTree = "<group>"; };
 		FBEEBC55234C3E6300A6D563 /* Hogwarts-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hogwarts-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBEEBC58234C3E6300A6D563 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FBEEBC59234C3E6300A6D563 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19DC8F7A234CF70200AB0978 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				19DC8F77234CF6FD00AB0978 /* TRWCharacter.h */,
+				19DC8F78234CF6FD00AB0978 /* TRWCharacter.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FBAE9AD4234C3F2300B8DAC9 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 			children = (
 				FBEEBC71234C3EBB00A6D563 /* Supporting Files */,
 				FBAE9AD4234C3F2300B8DAC9 /* Storyboards */,
+				19DC8F7A234CF70200AB0978 /* Models */,
 			);
 			path = "Hogwarts-C";
 			sourceTree = "<group>";
@@ -113,6 +126,7 @@
 		FBEEBC4D234C3E6300A6D563 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = TRW;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Karl Pfister";
 				TargetAttributes = {
@@ -160,6 +174,7 @@
 				FBEEBC5A234C3E6300A6D563 /* AppDelegate.m in Sources */,
 				FBEEBC6B234C3E6500A6D563 /* main.m in Sources */,
 				FBEEBC5D234C3E6300A6D563 /* SceneDelegate.m in Sources */,
+				19DC8F79234CF6FD00AB0978 /* TRWCharacter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
